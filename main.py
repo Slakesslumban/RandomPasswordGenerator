@@ -17,10 +17,10 @@ password4 = random.choice(signs)
 password = [password3, password2, password1, user, password4, number_2, one_more, number_3, number_4]
 real_password = "".join(password)
 if len(user) > 5:
-    print("ek bar me samaj nhi aata hai? ")
+    print("password needs to be less than 5 characters ")
     exit()
 elif len(user) < 3:
-    print("ek bar me samaj nhi aata hai? ")
+    print("password needs to be larger than 3 characters ")
     quit()
 else:
     print("Thanks")
